@@ -24,7 +24,7 @@ public class Dted {
         dted.arrange();
     }
 
-    public void addData(String directory) throws IOException {      //add new files to DataSet and parse
+    public void addNewDataFile(String directory) throws IOException {      //add new files to DataSet and parse
         addFile(directory);
         dted.setFilenames(filenames);
         dted.arrange();
